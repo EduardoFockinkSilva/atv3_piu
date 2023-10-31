@@ -1,0 +1,42 @@
+/* Ionic Variables and Theming. For more info, please see:
+http://ionicframework.com/docs/theming/ */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-page {
+  max-width: 1200px;  /* você pode ajustar este valor conforme a largura máxima desejada */
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* opcional: adiciona uma sombra para dar profundidade */
+}
+
+.section-important {
+  margin: 20px auto;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  margin: 20px auto;
+}
+
+.custom-button {
+height: 40px; /* ou o valor que você deseja */
+width: 280px; /* ou o valor que você deseja */
+margin: 20px;
+font-size: 12px; /* ajuste conforme necessário */
+}
+
+.quote {
+  background-color: gainsboro;
+  max-width: 280px;
+}
